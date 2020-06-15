@@ -1,8 +1,11 @@
-#==========================================================================# import selenium binding libraries
+"""
+#==========================================================================
+# import selenium binding libraries
 # import keys class from webdriver common functions
 # create a chrome / browser instance
 # Next, use the .get() method of the driver to load a website.
-#==========================================================================import pytest
+#=========================================================================="""
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
